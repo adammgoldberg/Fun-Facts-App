@@ -8,7 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
+@class Factbook;
+@class ColorWheel;
+
 @interface ViewController : UIViewController
+
+@property (weak, nonatomic) IBOutlet UILabel *funFactLabel;
+
+@property (strong, nonatomic) Factbook *factbook;
+
+@property (strong, nonatomic) ColorWheel *colorwheel;
+
+@property (weak, nonatomic) IBOutlet UIButton *funFactButton;
+
 
 
 @end
